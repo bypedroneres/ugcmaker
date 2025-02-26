@@ -1,0 +1,97 @@
+.Home {
+    background-color: #EFEDE5;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    display: flex;
+}
+
+.Home_Content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
+
+.Home_Text {
+    display: flex;
+    padding-right: 4rem;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.Home_Text > h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #3E0211;
+    margin: 0px;
+}
+
+.Home_Text > p {
+    font-size: 1rem;
+    margin: 0px;
+    color: #00000088;
+    margin: 1rem 0;
+}
+
+.Home_Clients {
+    display: flex;
+}
+
+.Home_Client {
+    display: flex;
+    margin-right: -0.9rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.Home_Text > a > button {
+    background-color: #3E0211;
+    color: #EFEDE5;
+    padding: 0.5rem 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.Home_Image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home_Image > img {
+    display: flex;
+    width: 100%;
+    padding-right: 0rem;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+    .Home_Content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .Home_Text {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0;
+    }
+
+    .Home_Image {
+        width: 100%;
+        padding: 0;
+    }
+}

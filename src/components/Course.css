@@ -1,0 +1,124 @@
+.Course {
+    background-color: #EFEDE5;
+    padding: 2rem;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.Course_Content {
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3E0211;
+}
+
+.Course_Content > h1 {
+    font-weight: 300;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.Course_Content > h2 {
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.Course_Content > p {
+    text-align: center;
+    padding: 2rem;
+}
+
+.Courses_Container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-direction: row;
+}
+
+.Course_Card {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.Course_Card_Image > img {
+    height: 100%;
+    width: 100%;
+}
+
+.Course_Card > h3 {
+    font-weight: 500;
+
+}
+
+.Course_Card > p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.Courses_Buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Courses_Buttons > a > button {
+    background-color: #3E0211;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.Courses_Buttons > button {
+    background-color: #3E0211;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Courses_Container {
+        flex-direction: column;
+    }
+
+    .Course_Card {
+        align-items: center;
+    }
+
+    .Course_Card_Image > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Courses_Buttons {
+        flex-direction: column;
+    }
+
+    .Courses_Buttons > button {
+        width: 100%;
+    }
+}
+

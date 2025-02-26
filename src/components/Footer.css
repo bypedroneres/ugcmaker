@@ -1,0 +1,33 @@
+.Footer_Content {
+    display: flex;
+    border-top: 1px solid #3E0211;
+    background-color: #EFEDE5;
+    align-items: center;
+    max-width: 800px;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    gap: 2rem;
+}
+
+.Footer {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #EFEDE5;
+}
+
+
+@media (max-width: 768px) {
+    .Footer_Content {
+        flex-direction: column;
+        height: 100%;
+        gap: 0rem;
+        font-size: 10px;
+        padding-top: 2rem;
+    }
+
+    .Footer {
+        padding: 1rem;
+    }
+}
