@@ -1,20 +1,15 @@
 import React from 'react';
-import './App.css';
-import Home from './components/Home';
-import Course from './components/Course';
-import Carousel from './components/Carousel';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Course />
-      <Carousel />
-      <FAQ />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/metodo-americano" element={<HomeScreen />} />
+      </Routes>
+    </Router>
   );
 }
 
