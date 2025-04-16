@@ -1,0 +1,84 @@
+.Carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #EFEDE5;
+  }
+  
+  .Carousel_Content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .Carousel_Content p {
+    font-size: 1.2rem;
+    color: #3E0211;
+    margin-bottom: 20px;
+  }
+  
+  .Carousel_Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .Circle_Button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #3E0211;
+    background-color: #EFEDE5;
+    color: #3E0211;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .Circle_Button:hover {
+    background-color: #dfddd7;
+  }
+  
+  .Carousel_Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%; 
+    max-height: 50%;
+    overflow: hidden; 
+  }
+  
+  .Carousel_Image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .Carousel {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .Carousel_Buttons {
+      justify-content: center;
+    }
+  
+    .Carousel_Image {
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+    .Carousel_Image > img {
+      width: 100%;
+    }
+  }
+  
