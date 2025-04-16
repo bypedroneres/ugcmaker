@@ -8,6 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/metodo-americano" element={<HomeScreen />} />
+        <Route path="/49" element={<HomeScreen />} />
       </Routes>
     </Router>
   );

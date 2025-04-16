@@ -9,6 +9,7 @@ function Home() {
   const linkMap = {
     '/': 'https://pay.kirvano.com/541c8c47-fda9-4e90-adef-8bf899b88b91',
     '/metodo-americano': 'https://pay.kirvano.com/cb5c9b28-71f5-4baa-b775-b535ec38c404?aff=91ccf7a9-3def-4bca-9916-babba4cd43b7',
+    '/49': 'https://pay.kirvano.com/cb5c9b28-71f5-4baa-b775-b535ec38c404?aff=b6f592e7-e72e-4b0f-a279-92ee88c0057a',
   };
 
   // Fallback link if path doesn't match
